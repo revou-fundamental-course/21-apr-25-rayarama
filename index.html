@@ -11,10 +11,31 @@
       <h1>Website Konversi Suhu</h1>
     </header>
     <main>
-      <section></section>
-      <section>
+      <section class="first-section">
+        <p>
+          Masukkan suhu derajat Celcius (&deg;C) ke kotak di bawah, lalu klik
+          tombol Konversi untuk mendapatkan hasil konversi dalam bentuk
+          Fahrenheit (&deg;F).
+        </p>
+        <form id="converter">
+          <label for="celcius-input">
+            Celcius(&deg;C):
+            <textarea id="celcius-input"></textarea>
+          </label>
+          <div class="btn-container">
+            <button>Konversi</button>
+            <button>Reset</button>
+            <button>Reverse</button>
+          </div>
+          <label>
+            Fahrenheit(&deg;F):
+            <textarea readonly></textarea>
+          </label>
+        </form>
+      </section>
+      <section class="last-section">
         <h2>Cara Konversi dari Celcius (&deg;C) ke Fahrenheit(&deg;F)</h2>
-        <br />
+        <hr />
         <p>
           Suhu <span class="formula">S</span> dalam Fahrenheit (&deg;F) sama
           dengan suhu <span class="formula">S</span> dalam derajat Celcius
