@@ -60,9 +60,9 @@ h2 {
 }
 
 textarea {
-  width: 100%;
+  width: 99%;
   height: 4rem;
-  margin: 10px 0;
+  margin: 10px auto;
   padding: 5px;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1rem;
