@@ -18,11 +18,12 @@
           Fahrenheit (&deg;F).
         </p>
         <form id="converter">
-          <label for="celcius-input">
+          <label for="user-input">
             Celcius(&deg;C):
             <textarea
-              id="celcius-input"
+              id="user-input"
               placeholder="Masukan nilai suhu yang ingin dikonversi"
+              required
             ></textarea>
           </label>
           <div class="btn-container">
@@ -30,16 +31,18 @@
             <button class="btn2">Reset</button>
             <button class="btn2">Reverse</button>
           </div>
-          <label>
+          <label for="conversion-result">
             Fahrenheit(&deg;F):
             <textarea
+              id="conversion-result"
               placeholder="Hasil konversi akan ada di sini."
               readonly
             ></textarea>
           </label>
-          <label>
+          <label for="formula-explanation">
             Cara Kalkulasi:
             <textarea
+              id="formula-explanation"
               placeholder="(Suhu dalam Celcius) &times; (9 &divide; 5) + 32 = (Suhu dalam Fahrenheit)"
               readonly
             ></textarea>
@@ -65,5 +68,6 @@
       </section>
     </main>
     <footer></footer>
+    <script src="./js/script.js"></script>
   </body>
 </html>
