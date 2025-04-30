@@ -18,27 +18,27 @@
           Fahrenheit (&deg;F).
         </p>
         <form id="converter">
-          <label for="user-input">
-            Celcius(&deg;C):
-            <textarea
-              id="user-input"
-              placeholder="Masukan nilai suhu yang ingin dikonversi"
-              required
-            ></textarea>
+          <label id="conversion-label" for="user-input">
+            Celcius (&deg;C):
           </label>
+          <textarea
+            id="user-input"
+            placeholder="Masukan nilai suhu yang ingin dikonversi"
+            required
+          ></textarea>
           <div class="btn-container">
             <button id="convert" class="btn1">Konversi</button>
             <button id="reset" class="btn2">Reset</button>
             <button id="reverse" class="btn2">Reverse</button>
           </div>
-          <label for="conversion-result">
+          <label id="result-label" for="conversion-result">
             Fahrenheit(&deg;F):
-            <textarea
-              id="conversion-result"
-              placeholder="Hasil konversi akan ada di sini."
-              readonly
-            ></textarea>
           </label>
+          <textarea
+            id="conversion-result"
+            placeholder="Hasil konversi akan ada di sini."
+            readonly
+          ></textarea>
           <label for="formula-explanation">
             Cara Kalkulasi:
             <textarea
